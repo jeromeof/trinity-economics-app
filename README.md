@@ -32,6 +32,9 @@ npm install -dev
 # Generate the mobile code via Cordova
 npm run installCordova
 
+# Add security exception for IOS9
+cordova plugin add https://github.com/bisrael/cordova-plugin-disable-nsapptransportsecurity.git
+
 ### Generate the compile JS compile
 npm run devserver
 
