@@ -89,7 +89,7 @@
     "source-list-map":"^0.1.5",
     "supports-color":"^3.1.2",
     "util": "^0.10.3",
-    "webpack": "~1.10.0",
+    "webpack": "~1.12.2",
     "webpack-dev-server": "~1.10.0"
   },
   "dependencies": {
