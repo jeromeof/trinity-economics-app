@@ -1,0 +1,18 @@
+{
+    "api": {
+        "baseUrl": "http://trinityeconomics.x10host.com/wp-json",
+        "login": "appuser",
+        "password": "AppUserPassword123",
+        "timeout": 20000
+    },
+    "posts": {
+        "posts_per_page": 6,
+        "orderby": "date",
+        "orderby": "desc",
+        "post_status": "publish"
+    },
+    "cache": {
+        "views": 10,
+        "forward": false
+    }
+}
