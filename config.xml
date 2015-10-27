@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.britebill.trinityeconomics" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Trinity Economics App</name>
+  <name>TCD Economics</name>
   <description>
-        An application to allow browseing
+        An application to allow browsing the content hosted at http://trinityeconomics.x10host.com
     </description>
   <author email="eoghan.m.oflaherty@gmail.com" href="http://trinityeconomics.x10host.com/">
-        Eoghan O'Flaherty'
+        Eoghan O'Flaherty
     </author>
   <content src="index.html"/>
   <access origin="*"/>
