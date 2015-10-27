@@ -1,7 +1,7 @@
 {
-  "name": "ios-android-wordpress-ionic-webpack-ES6",
+  "name": "trinity-economics-app",
   "version": "1.0.0",
-  "description": "Repo created for the TutsPlus article: Creating iOS/Android mobile applications for WordPress using Ionic SDK, Webpack, ES6 and WP-API",
+  "description": "Repo for Eoghan O'Flaherty to demonstation an Economics Application",
   "main": "lib/index.js",
   "scripts": {
     "installCordova": "sh ./install_cordova.sh",
@@ -17,9 +17,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:shprink/ios-android-wordpress-ionic-webpack-ES6.git"
+    "url": "git@github.com:jeromeof/trinity-economics-app.git"
   },
-  "author": "shprink <contact@julienrenaux.fr> (http://julienrenaux.fr/)",
+  "author": "jeromeof <jerome.oflaherty@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer-loader": "^2.0.0",
@@ -43,7 +43,7 @@
     "webpack-dev-server": "~1.10.0"
   },
   "dependencies": {
-    "ionic-sdk": "^1.0.0",
+    "ionic-sdk": "^1.1.0",
     "lodash": "^3.9.3",
     "wp-api-angularjs": "^2.0.0-rc1"
   },
