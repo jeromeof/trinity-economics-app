@@ -10,8 +10,9 @@ The hybrid codebase uses webpack, ionic, angularJS and wp-api-angularjs to creat
 content from the website
 
 ### Reference documentation
-WordPress v2 REST API: http://v2.wp-api.org 
-   Moving from WP v1 REST API to v2 API https://1fix.io/blog/2015/09/29/wp-api-v2-angularjs-theme/ 
+WordPress v2 REST API: http://v2.wp-api.org
+
+Moving from WP v1 REST API to v2 API https://1fix.io/blog/2015/09/29/wp-api-v2-angularjs-theme/ 
 
 WebPack Documentation https://webpack.github.io
 
@@ -26,14 +27,12 @@ Cordova Documentation https://cordova.apache.org/docs/en/5.1.1/guide/overview/
 
 npm install
 
-# Cordova
+npm install -dev
+
+# Generate the mobile code via Cordova
 npm run installCordova
-```
 
-### Run
-
-```
-# Web
+### Generate the compile JS compile
 npm run devserver
 
 # Android - install Android SDK first
@@ -41,5 +40,6 @@ npm run runAndroid
 
 # iOS - Install XCode first
 npm run runIosEmulator
+
 npm run runIosDevice
 ```
