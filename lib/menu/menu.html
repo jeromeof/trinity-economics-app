@@ -7,6 +7,14 @@
             <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="root.home" ui-sref-active="active">
                 <i class="icon ion-home"></i> Home
             </ion-item>
+            <ion-item class="item-divider">Categories</ion-item>
+            <ion-item class="item item-icon-left" nav-clear menu-close ng-repeat="cat in menuCtrl.categories track by cat.id" ui-sref="root.category(::{ name: cat.name })">
+                <i class="icon ion-ios-paper"></i> {{::cat.name}}
+            </ion-item>
+            <ion-item class="item-divider">Pages</ion-item>
+            <ion-item class="item item-icon-left " nav-clear menu-close ng-repeat="page in menuCtrl.pages track by page.id" ui-sref="root.page(::{ id: page.id })">
+                <i class="icon ion-ios-briefcase"></i> {{::page.title.rendered}}
+            </ion-item>
         </ion-list>
     </ion-content>
 </ion-view>

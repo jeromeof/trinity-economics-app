@@ -1,0 +1,16 @@
+<ion-view>
+    <ion-nav-title>Latest {{::categoryCtrl.categoryName}} Articles</ion-nav-title>
+    <ion-content style="background-color: #eee;">
+        <ion-refresher pulling-text="Pull to refresh" on-refresh="categoryCtrl.refresh()"></ion-refresher>
+        <div class="list card" ng-repeat="post in categoryCtrl.categoryPosts track by post.id" ui-sref="root.post(::{ id: post.id })">
+            <div class="item item-avatar">
+                <p>{{::post.date | date:'medium'}}</p>
+            </div>
+            <div class="item item-body">
+                <h2>{{::post.title.rendered}}</h2>
+                <p ng-bind-html="::post.excerpt.rendered"></p>
+            </div>
+        </div>
+        <ion-infinite-scroll immediate-check="true" ng-if="categoryCtrl.categoryPosts && !categoryCtrl.isPaginationOver" on-infinite="categoryCtrl.loadMore()"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>

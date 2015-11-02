@@ -3,9 +3,8 @@
     <ion-content>
         <ion-spinner ng-if="!postCtrl.post"></ion-spinner>
         <div class="list card" ng-if="postCtrl.post" style="margin: 0;">
-            <div class="item item-avatar">
-                <img ng-src="{{::postCtrl.post.author.avatar}}">
-                <h2>{{::postCtrl.post.author.name}}</h2>
+            <div class="item">
+                <h2>{{::postCtrl.author.name}}</h2>
                 <p>{{::postCtrl.post.date | date:'medium'}}</p>
             </div>
             <div class="item item-body">
