@@ -1,0 +1,11 @@
+[
+	{
+		"type":"group",
+		"title":"Common",
+		"items":[{
+			"title":"Article Database",
+			"type":"textfield",
+			"key":"restEndPoint"
+		}]
+	}
+]

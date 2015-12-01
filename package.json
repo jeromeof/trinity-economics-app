@@ -95,7 +95,8 @@
   "dependencies": {
     "ionic-sdk": "^1.1.0",
     "lodash": "^3.9.3",
-    "wp-api-angularjs": "^2.0.0-rc1"
+    "wp-api-angularjs": "^2.0.0-rc1",
+    "angular-sanitize": "^1.4.8"
   },
   "cordovaPlugins": [],
   "cordovaPlatforms": [

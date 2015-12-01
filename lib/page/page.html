@@ -11,7 +11,7 @@
             <div class="item item-body">
                 <img class="full-image" ng-src="{{::pageCtrl.page.featured_image.attachment_meta.sizes.medium.url}}">
                 <h2>{{::pageCtrl.page.title.rendered}}</h2>
-                <p ng-bind-html="::pageCtrl.page.content.rendered"></p>
+                <p ng-bind-html="::pageCtrl.page.content.rendered | hrefToJS"></p>
             </div>
         </div>
     </ion-content>
